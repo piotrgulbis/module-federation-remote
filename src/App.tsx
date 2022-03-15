@@ -8,7 +8,7 @@ import "./index.css";
 const App = () => (
   <div className="container">
     <div style={{marginBottom: "8px"}}>Name: remote</div>
-    <Counter />
+    <Counter app={{ name: "Remote" }} />
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
